@@ -31,7 +31,7 @@ jobs:
 
       - name: Build .exe with PyInstaller
         run: |
-          pyinstaller --onefile matopeli.py
+          pyinstaller --onefile wormgameli.py
 
       - name: Hae edellinen tagi ja laske seuraava
         id: version
